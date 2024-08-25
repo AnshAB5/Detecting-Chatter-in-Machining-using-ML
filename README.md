@@ -22,33 +22,7 @@ This project focuses on detecting machining chatter using a combination of machi
 - NumPy
 - SciPy
 
-## Installation and Usage
 
-```bash
-# Step 1: Clone the Repository
-git clone https://github.com/yourusername/chatter-detection.git
-cd chatter-detection
-
-# Step 2: Install Dependencies
-pip install -r requirements.txt
-
-# Step 3: Data Preparation
-# Place raw acceleration data and surface images into the `data/raw` directory.
-# Run preprocessing scripts to prepare datasets:
-python preprocess_images.py
-python preprocess_signals.py
-
-# Step 4: Train Models
-# Train the CNN model:
-python train_cnn.py
-
-# Train the statistical model:
-python train_statistical_model.py
-
-# Step 5: Evaluation
-# Evaluate model performance on test data:
-python evaluate_models.py
-```
 ## Contact
 For any questions or collaboration interests, please contact b.ansh@iitg.ac.in
 
