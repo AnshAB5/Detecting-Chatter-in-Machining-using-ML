@@ -14,6 +14,8 @@ This project focuses on detecting machining chatter using a combination of machi
   
 - **Image Preprocessing**: Utilized OpenCV for image clipping and enhancement to create a high-quality dataset for training and evaluation.
 
+- **Custom Image Labeling Script**: Developed an automated labeling script that detects the RPM and DOC (Depth of Cut) from the image file names. It prompts users to label the images as "positive" (chatter present) or "non-positive" (no chatter). Once the labeling is complete, it outputs a CSV file summarizing the labels. The image folder for output is named `output`.
+
 ## Technologies Used
 
 - Python 3
@@ -22,7 +24,6 @@ This project focuses on detecting machining chatter using a combination of machi
 - NumPy
 - SciPy
 
-
 ## Contact
-For any questions or collaboration interests, please contact b.ansh@iitg.ac.in
 
+For any questions or collaboration interests, please contact b.ansh@iitg.ac.in
